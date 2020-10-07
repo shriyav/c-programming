@@ -51,6 +51,7 @@
    Second, you should perform a very similar calculation for each
    month of retirment.  The difference here is that you will use the
    information in the "retired" retire_info structure instead
+
    of the information in the "working" structure.  As with
    working, you should print out the same information as before.
 
@@ -79,9 +80,3 @@
      it (we provided the output: retirement_ans.txt).
 
   6. Submit retirement.c
-
-
-     
-
-
-  
