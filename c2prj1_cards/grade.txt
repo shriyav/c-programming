@@ -1,0 +1,65 @@
+Grading at Mon Oct 12 15:04:10 UTC 2020
+Compiling cards.c
+Testing card_from_letters
+0c0d0h0s2c2d2h2s3c3d3h3s4c4d4h4s5c5d5h5s6c6d6h6s7c7d7h7s8c8d8h8s9c9d9h9sAcAdAhAsJcJdJhJsKcKdKhKsQcQdQhQsPassed
+Testing value_letter and suit_letter
+Passed
+Testing print_card
+Passed
+Testing card_from_num
+When I use card_from_num on numbers 0<= i < 52
+I expect to see each card exactly once, but I see:
+2h2h
+3h3h
+4h4h
+5h5h
+6h6h
+7h7h
+8h8h
+9h9h
+0h0h
+JhJh
+QhQh
+KhKh
+AhAh
+2c2c
+3c3c
+4c4c
+5c5c
+6c6c
+7c7c
+8c8c
+9c9c
+0c0c
+JcJc
+QcQc
+KcKc
+AcAc
+2d2d
+3d3d
+4d4d
+5d5d
+6d6d
+7d7d
+8d8d
+9d9d
+0d0d
+JdJd
+QdQd
+KdKd
+AdAd
+2s2s
+3s3s
+4s4s
+5s5s
+6s6s
+7s7s
+8s8s
+9s9s
+0s0s
+JsJs
+QsQs
+KsKs
+AsAs
+
+Overall Grade: FAILED
