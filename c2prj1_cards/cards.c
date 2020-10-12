@@ -136,8 +136,5 @@ card_t card_from_num(unsigned c) {
   case 12: temp.value = VALUE_ACE; break;
   default: temp.value = 0; break;
   }
-  
-  print_card(temp);
-  
   return temp;
 }
