@@ -117,8 +117,10 @@ card_t card_from_num(unsigned c) {
   else {
     printf("Something wrong here.");
   }
+
+  int val = c%13;
   
-  switch(c % 13) {
+  switch(val) {
   case 0: temp.value = 2; break;
   case 1: temp.value = 3; break;
   case 2: temp.value = 4; break;
@@ -132,6 +134,7 @@ card_t card_from_num(unsigned c) {
   case 10: temp.value = VALUE_QUEEN; break;
   case 11: temp.value = VALUE_KING; break;
   case 12: temp.value = VALUE_ACE; break;
+  default: temp.value = 0; break;
   }
   
   print_card(temp);
