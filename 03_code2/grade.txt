@@ -1,4 +1,4 @@
-Grading at Wed Sep 30 20:17:54 UTC 2020
+Grading at Tue Oct 13 14:10:26 UTC 2020
 Checking code2.c for legal syntax
 Checking for int printTriangle (int size)
 Found on line 4, column 1 
@@ -15,9 +15,9 @@ Testing printTriangle(4) ... Correct
 Testing printTriangle(7) ... Correct
 Testing printTriangle(9) ... Correct
 Testing printTriangle(12) ... Correct
-Testing printTriangle(97) ... Correct
-Testing printTriangle(208) ... Correct
-Testing printTriangle(291) ... Correct
-Testing printTriangle(2529) ... Correct
+Testing printTriangle(103) ... Correct
+Testing printTriangle(201) ... Correct
+Testing printTriangle(1067) ... Correct
+Testing printTriangle(2337) ... Correct
 
 Overall Grade: A
