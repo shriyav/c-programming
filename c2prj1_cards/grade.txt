@@ -1,4 +1,4 @@
-Grading at Mon Oct 12 21:10:29 UTC 2020
+Grading at Tue Oct 13 14:09:13 UTC 2020
 Compiling cards.c
 Testing card_from_letters
 0c0d0h0s2c2d2h2s3c3d3h3s4c4d4h4s5c5d5h5s6c6d6h6s7c7d7h7s8c8d8h8s9c9d9h9sAcAdAhAsJcJdJhJsKcKdKhKsQcQdQhQsPassed
