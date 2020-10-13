@@ -1,0 +1,64 @@
+//same cards
+Ks Qc 0s 9h 6c 3s 2c; Ks Qc 0s 9h 6c 3s 2c
+//King high vs king high 3rd highest wins
+Ks Qc 0s 9h 6c 3s 2c; Kh Qc 9h 7h 6c 3s 2c
+//Nothing tie
+Ks Qc 0s 9h 6c 3s 2c; Kh Qc 0d 9h 6c 3s 2c
+//king high nothing win
+Ks Qc 0s 9h 6c 3s 2c; Qh Jc 9h 7h 6c 3s 2c
+//pair vs nothing
+Ks Qc 0s 9h 6c 3s 2c; Qh Qc 9h 7h 6c 3s 2c
+//pair vs pair
+Ks Kc 0s 9h 6c 3s 2c; Kh Kc 9h 7h 6c 3s 2c
+//2 pair higher clear
+As Ac 0s 0h 6c 3s 2c; Kh Kc 0s 0h 6c 3s 2c
+//2 pair tie
+As Ac 0s 0h 6c 3s 2c; As Ac 0c 0d 6c 3s 2c
+//2 pair tiebreaker
+As Ac 9s 9h 6c 3s 2c; Ah Ac 0s 0h 6c 3s 2c
+//3 pair
+As Ac 9s 9h 0c 0s 2c; Ah Ac 9s 9h 0c 0s 2c
+//2 pair vs pair
+As Ac 9s 9h 6c 3s 2c; As Ac 0s 8h 6c 3s 2c
+//3 of a kind
+As Ac Ad 9h 6c 3s 2c; Kh Kc Ad 9h 6c 3s 2c
+//3 of a kind tiebreaker
+As Ac Ad 9h 6c 3s 2c; Ah Ac Ad 0h 6c 3s 2c
+//straight vs pair
+Ks Qc Jd 0h 9c 3s 2c; Ks 9c Jd 8h 6c 3s 2c
+//straight ace low
+Ks Qc 5d 4c 3s 2c As; Ks Qc 5d 8d 6c 3s 2c
+//straight ace high
+Ac Ks Qc Jd 0h 3s 2c; Ks Ac Jd 8h 6c 3s 2c
+//ace high vs ace low straight
+Ac Ks Qc Jd 0h 3s 2c; Ks Qc 5d 4h Ac 3s 2c
+//flush
+Ac Qc Jc 9d 6h 3s 2c; 6h Qc 9c 4c Ac 3s 2c
+//flush vs 2 pair + 3 of a kind
+6c 7d 8c Ac Ah 4c 4s; 4c 6c 8c Ac 9c 7d 4s
+//full house vs flush
+4h 7d 8c Ac Ah 4c 4s; 4c 6c 8c Ac 9c 7d 4s
+//flush vs flush
+4h 7d 8c Ac Ah 4c 4s; 4c 4h 8c Ac 8s 7d 4s
+//four of a kind
+0c 0d 0s 0h 2h 3c 5d; 9c 9d 0s 0h 2h 3c 5d 
+//four of a kind tiebreaker
+0c 0d 0s 0h 2h 8c Kd; 0c 0d 0s 0h 2h 7c 9d 
+//ace high straight flush vc ace low
+Ac Kc Qc Jc 0c 5c 4c; Kc Qc 5c 4c 3c 2c Ac
+//ace high straight flush tie
+Ac Kc Qc Jc 0c 5c 4c; Ad Kd Qd Jd 0d 6s 7c
+//straight and flush
+As Ks Qd Jd 0d 5d 4d; Ac Kc Qc Jc 0c 5c 4c
+//straight duplicates
+Qd Jd 0d 9s 9h 8c 8h; Qd Jd 4c 9s 9h 7c 8h
+//unordered 2 pair
+8h 9s Qd 9h 2c 6c 2c; Qd 9s 7c 8h 2d 6c 2h
+//same cards
+8h 9s Qd 9h 2c 6c 2c; 8h 9s Qd 9h 2c 6c 2c
+//does test-eval 7 - 1 suit out
+3s 4d Ks Qs Jd 0s 9s; 3s 4d Ks Qs Jd 8d 7c
+//does test-eval 2 - straight flush with cards of same number and different suits
+Kc Jd Ks Qs Js 0s 9s; 3s 4d Ks Qs Jd 8d 7c
+//full house with a 3 of a kind made from a repeated card
+2d 3c 3d Jh Qs Js 3h; 2d 3c 3d Jh Qs Jd 3c
