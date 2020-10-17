@@ -1,4 +1,4 @@
- 1. Open the provided arrayMax.c file and write
+1. Open the provided arrayMax.c file and write
     the function:
       int * arrayMax(int * array, int n);
     which returns a pointer to the largest element
