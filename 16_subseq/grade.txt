@@ -1,4 +1,4 @@
-Grading at Sun Oct 18 11:34:49 UTC 2020
+Grading at Mon Oct 19 11:11:07 UTC 2020
 Attempting to compile maxSeq.c 
 Linking your object file with our test main
 #################################################
@@ -6,7 +6,7 @@ testcase2:
 array size:0 was Incorrect
 #################################################
 testcase3:
-array size:1 was Incorrect
+array size:1 was Correct
 #################################################
 testcase4:
 array size:100 was Incorrect
