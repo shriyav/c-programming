@@ -16,27 +16,23 @@ size_t maxSeq(int * array, size_t n) {
   if (n==1) {
     return 1;
   }
-  
-  for (int i = 1; i < n; i++) {
+
+  for (int i=1; i<n; i++) {
     if (array[i] > array[i-1]) {
-	counter ++;
-	printf("counter value is: %d\n", counter);
-	if (counter>highest) {
-	  highest=counter;
-	}
+      counter++;
     }
     else {
-	  if (counter > highest) {
-	    highest = counter;
-	    counter = 1;
-	  }
-	  else {
-	    counter = 1;
-	  }
-	  printf("counter value is: %d\n", counter);
+      if (counter > highest) {
+	highest=counter;
+	counter=1;
+      }
     }
   }
-  printf("Got this: %lu.\n", highest);
+
+  if (counter > highest) {
+    highest=counter;
+  }
   return highest;
+  
 }
 
