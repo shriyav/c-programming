@@ -5,11 +5,7 @@ size_t maxSeq(int * array, size_t n) {
   size_t highest=0;
   int counter=1;
 
-  if (n<=0) {
-    return 0;
-  }
-
-  if (array == NULL) {
+  if (n==0) {
     return 0;
   }
   
@@ -24,8 +20,8 @@ size_t maxSeq(int * array, size_t n) {
     else {
       if (counter > highest) {
 	highest=counter;
-	counter=1;
       }
+      counter=1;
     }
   }
 
