@@ -3,6 +3,11 @@
 #include <string.h>
 
 void reverse(char * str) {
+
+  if ((str == NULL) || (*str == '\0')) {
+    return;
+  }
+  
   size_t len = strlen(str);
   char temp[len];
   char * dst = temp;
@@ -12,13 +17,11 @@ void reverse(char * str) {
   char * p2 = temp;
 
   p2 = p2 + (len-1);
-
-  for (int i=0; i<(len-1); i++) {
-    while (*p1 != '\0') {
-      *p1 = *p2;
-      p1++;
-      p2--;
-    }
+  
+  while (*p1 != '\0') {
+    *p1 = *p2;
+    p1++;
+    p2--;
   }
 }
 
